@@ -2143,7 +2143,7 @@ footer{
   /*Code for Doctors*/
   #doctors{
     width: 100%;
-    height: 400vh;
+    height: 360vh;
    
 }
 
@@ -2186,7 +2186,7 @@ footer{
     bottom: 16%;
     margin-left: 15%;
     width: 75%;
-    height: 6vh;
+    height: 4vh;
 
 }
 
@@ -2315,7 +2315,7 @@ font-size: 4rem;
     
     #testimonial{
         width: 100%;
-        height: 180vh;
+        height: 160vh;
     }
 
     .testimonial-bg{
@@ -2419,7 +2419,7 @@ font-size: 4rem;
 
     footer{
         width: 100%;
-        height:70vh;     
+        height:55vh;     
               
     }
     .ftr-container{
