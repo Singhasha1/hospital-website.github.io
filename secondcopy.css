@@ -1,0 +1,2485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    /* font size = 10px it means 62.5% */
+   font-size: 62.5%;  /*for setting the browser font size from 16px to 10px*/
+  }
+
+
+#head{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    z-index: 100;   
+}
+
+.head-logo{
+    width: 12%;
+    height: 20%;
+    margin-left: 8%;
+    margin-top: 2%;
+    float: left;
+}
+
+.inner-icon{
+    float: left;
+    font-size: 20rem;
+    margin: 2.2rem 0 0 11rem;
+    cursor: pointer;
+}
+
+ .square {
+    float: left;
+    background: #157fda;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: normal;
+    padding: 1rem 1.2rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    transition: ease all 1s;
+    cursor: pointer;
+}
+
+.square:hover{
+    border-radius: 5rem;
+    background-color: #39b49b;
+}
+
+.phone-icon{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+.inner-icon .fa {
+    width: 100%;
+    vertical-align: middle;
+    color: white;
+}
+
+.icon-info a:link{
+        text-decoration: none;     
+         
+}
+.icon-info{
+        font-family:  'Arvo', serif;
+        float: left;
+        font-size: 2.5rem;
+        letter-spacing: -0.1rem;
+        margin: 0.4rem 0;       
+        
+}
+
+/*code for navbar*/
+
+#navbar {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #157fda;
+    top: 20%;  
+    z-index: 100;
+    height: 10vh;
+    }
+
+    .menubar{
+        display: none;
+    }
+
+    nav ul{
+      margin-left: 8.5rem;
+      overflow: auto;
+      resize: both;
+    }
+    nav li{
+      display: inline-block;
+      margin: 0 0.6rem;
+      line-height: 6rem;
+      
+    }
+
+    nav a{
+      color: white;
+      font-size: 2.2rem;
+      padding: 0.7rem 1.5rem;
+      text-decoration: none;
+    }
+
+    .search{
+        width: 10%;
+        position: relative;
+        padding-right: 17%;
+        float: right;
+        margin-top: 1%;        
+    }
+      
+    .searchinput {
+        margin: 0rem;
+        padding: 0rem;
+        width: 160%;
+        border: none;
+        text-align: left;
+        padding-left: 5%;
+        border-radius: 5rem;  
+        height: 3rem; 
+        outline: none;
+    }
+      
+    .searchbtn {
+        position: absolute;
+        top: 0;
+        right:14.4rem;
+        z-index: 2;
+        border:none; 
+        margin-top: 0;
+        height: 3rem;
+        width: 11%;
+        cursor: pointer;
+        background-color:white;
+        text-align: center;
+        transform: translateX(0.1rem);
+        border-radius: 5rem;
+        outline: none; 
+    }
+
+
+    .search .fa{
+        color: gray;
+        font-size: large;
+
+    }
+
+    #navbar li a.active{
+        
+            color: #fff;
+            background: #39b49b;
+            box-shadow: 0.5rem 0.5rem 0 0rem #fff;  
+        
+    }
+
+    #navbar li a:hover{
+        color: #fff;
+        background: #39b49b;
+        box-shadow: 0.5rem 0.5rem 0 0rem #fff;
+    }
+
+    
+
+    /*code for home section*/
+    #home{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .homepic{
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        vertical-align: middle;
+        object-fit: fill;
+    }
+
+    .home-innercontainer{
+    position: absolute;
+    height: auto;
+    float: left;
+    font-size: 2rem;
+    margin-left: 45%;
+    cursor: pointer;
+    margin-top: 3%;
+
+
+    }
+    .circle{
+        position: absolute;
+        width: 9rem;
+        height: 9rem;
+        background-color: rgb(251, 248, 248);
+        border: 0.3rem solid #39b49b;
+        border-radius:5rem ;
+        text-align: center; 
+    }
+
+    .heart-pic{
+        width: 60%;
+        vertical-align: middle;
+        margin-top: 25%;
+
+    }
+
+    /*code for tying effect using typed.js*/
+    .typewriter{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 11%;
+        
+    }
+    .typewriter h1{
+        font-size: 6.2rem;
+        font-weight: 150;
+    }
+
+    .home-feature{
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        top: 40%;
+        margin-left: 10%;
+    }
+
+    .feature-box{
+        overflow: hidden;
+    }
+
+    .featureclock{
+        width: 100%;
+        position: relative;
+    }
+
+    .featureclock hr{
+        border: 0.1rem dashed white;
+        margin-top: 0.5rem;
+    }
+    .featureclock p{
+        color: #fff;
+        padding-top: 1.2rem;
+        font-size: 1.8rem;
+    }
+
+   .right{
+       float: right;
+
+   }
+
+    .feature-box:nth-child(1){
+        height: 50vh;
+        background-color: #2895f1;
+        padding-left: 6rem;
+        padding-right: 6rem;
+
+    }
+    .feature-box:nth-child(2){
+        height: 57vh;
+        background-color: #0071d1;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .feature-box:nth-child(3){
+        height: 50vh;
+        background-color: #0060b1;
+        padding-left: 6rem;
+        padding-right:6rem;
+    }
+
+    .featurebox-pic i.fa{
+        font-size: 7rem;
+        margin-top: 5rem;
+        color: white;
+        margin-left: 36%;
+    }
+
+    .feature-box h3{
+        color: white;
+        padding-top: 12%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .featurebox-text{
+        font-size: 1.6rem;
+        color: white;
+        padding-top: 1.2rem;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    /*code for about us*/
+    #about-us{
+        width: 100%;
+        height: 170vh;
+        position: relative;
+        background-color: white;
+       
+    }
+    .heart-aboutus{
+        position: absolute;
+        width: 5%;
+        vertical-align: middle;
+        margin-top: 5%;
+        margin-left: 47%;   
+    }
+
+    #about-us h1{
+       text-align: center;
+       padding-top: 9.5%;
+       font-size: 4rem;
+       color: rgb(59, 58, 58);
+       font-weight: 90;
+    } 
+
+    .line1{
+        width: 3%;
+        border: 0.2rem solid  #39b49b;
+        margin-left: 48% ;
+        margin-top: 0.5%;
+    }
+
+/*responsive flex for about us content*/
+    .about-us-content{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+        height: 75vh;
+        background-color: white;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .left-content-box{
+        flex: 40%;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .left-content-box h4{
+        padding-top: 1.5rem;
+        padding-left: 5rem;
+        color:  #0071d1;
+       
+    }
+
+    .left-content-box h2{
+        padding-left: 5rem;
+        color:  black;
+        padding-top: 1%;
+        font-size: 3.5rem; 
+    }
+
+    .left-content-box p{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        color:  black;
+        padding-top: 1rem;
+        font-size: 2rem;
+        font-style: normal;
+        color: #999;
+    }
+
+    .learn-btn{
+       margin-left: 4.5rem;
+       margin-top: 2.5rem;
+        width: 24%;
+        border-radius: 5rem;
+        height: 12%;
+        border: 0.2rem solid white;
+        background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+        color: white;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        cursor: pointer;
+        
+    }
+
+    .learn-btn:hover{
+            top: -1rem;
+            left: -1rem;
+            padding: 0.7rem;
+            box-shadow: 0 0 0 0.2rem #39b49b;
+    }
+
+    .right-content-box{
+        flex: 40%;
+        max-width: 100%;
+        padding: 0 2rem;
+    
+    }
+    
+    .aboutus-pic{
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .line2{
+        width: 84%;
+        border: 0.1rem dashed rgb(213, 200, 200);
+        margin-top: 10rem;
+        margin-left: 10%;
+
+    }
+    /*about us responsive grid*/
+
+    .grid-box{
+        width: 84%;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 3rem;   
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+
+    .clinic-pic1{
+         height: 75%;
+        cursor: pointer;
+        width: 100%;
+        
+    }
+
+    .clinic01{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .clinic-pic2{
+         height: 75%;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .clinic02{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .clinic-pic3{
+         height: 75%;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .clinic03{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .clinic-pic4{
+         height: 75%;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .clinic04{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-innercontainer p{
+        background-color: #0060b1;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 60;
+        padding: 1rem;
+    }
+
+/*code for services*/
+    #services{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 110vh;   
+    }
+
+    .service-bg{
+        width: 100%;
+        object-fit: fill;
+        height: 110vh;
+        position: absolute;
+    }
+
+    .main-service-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .service-leftcontainer{
+        flex: 50%;
+        max-width: 100%;
+        padding: 0 1rem;  
+    }
+
+    .service-inner-container{
+        width: 92%;
+        height: auto;
+        margin-top: 15%;
+        margin-left: 8%;
+    }
+
+    .service-grid{
+        width: 100%;
+        height: 60vh; 
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;         
+    }
+
+    .service-box{
+        overflow: hidden;   
+        height: 30vh;
+    }
+
+    .servicebox-pic{
+        width: 7rem;
+        height: 7rem;
+        vertical-align: middle;
+        margin-top: 10%;
+        margin-left: 33%;
+    }
+
+    .service-box h3{
+        text-align: center;
+        padding-top: 5%;
+        text-transform: uppercase;
+        color: white;
+        font-size: medium;
+        font-weight: 50;
+    }
+
+    .service-box p{
+        text-align: center;
+        color: white;
+        padding: 4%;
+
+    }
+
+    .service-rightcontainer{
+        flex: 40%;
+        max-width: 100%;
+        padding: 0 2rem; 
+    }
+
+    /*code for appointment-form*/
+    .form-container{
+        margin-top: 12%;
+        margin-left: 20%;
+        width: 65%;
+        height: 85vh;
+        background-color: white;
+    }
+
+    .appointment-form{
+        width: 90%;
+        height: auto;
+        margin-left: 5%; 
+        padding-top: 5%;    
+        
+    }    
+
+    .form-header{
+        width: 100%;
+        background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+        
+    }
+
+    .form-header h3{
+    color: #fff;
+    padding-left: 2rem;
+    padding-top: 1.3rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    }
+
+    
+    .form-row {
+        width: 100%;
+        background-color: burlywood;
+        margin-top: 4%;
+        
+    }
+
+    .form-content{
+        float: left;
+        width: 100%;
+        margin: 0;
+}
+
+.form-content input {
+    float: left;
+    width: 98%;
+    border-radius: 0;
+    border: solid #ccc 0.1rem;
+    padding-left: 0.55rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1.2rem 0 0;
+    box-shadow: none;
+    color: #333;
+    height: 4.4rem;
+}
+
+
+.form-option{
+    float: left;
+    width: 100%;
+    box-shadow: none;
+    color: #333;
+    height: 4.6rem;
+    border-radius: 0;
+    border: solid #ccc 0.1rem;
+    padding-left: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.select{
+    width: 100%;
+    display: table;
+}
+
+.select div.form-content:nth-child(1) {
+        float: left;
+        max-width: 49%;
+}
+
+.select div.form-content:nth-child(2) {
+    float: left;
+    margin-left: 0.6rem;
+    max-width: 49%;
+}
+
+.comment-box{  
+    height: 10rem; 
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    font-size: larger;
+}
+
+.submit-btn{
+    width: 40%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 32%;
+    border-radius: 5.0rem;
+    padding: 1.0rem;
+    font-size: medium;
+    font-weight: 100;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+   
+}
+.submit-btn:hover{
+    background: linear-gradient(to right,#1d86df 0%,  #39b49a 100%);
+}
+
+/*code for doctors*/
+#doctors{
+    width: 100%;
+    height: 140vh;
+    background-color: white;
+}
+#doctors h1{
+    text-align: center;
+    padding-top: 9.5%;
+    font-size: 4.0rem;
+    color: rgb(59, 58, 58);
+    font-weight: 90;
+}
+
+.profile-card{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 110vh;
+    margin-left: 8%;
+}
+
+.card{
+   height: 100vh;
+   cursor: pointer;
+   width: 80%;
+   position: relative;
+   overflow: hidden;
+}
+
+.doctor-pic{
+   object-fit: contain;
+   width: 100%;
+   height: 75%;
+}
+
+.profile-name{
+    position: absolute;
+    margin-top: -25%;
+    background: linear-gradient(to right,#1d86df 0%,  #39b49a 100%);
+    color: #ffffff;
+    width: 55%;
+    height: 8vh;
+    margin-left: 23%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.profile-name h3{
+   padding: 5%;
+   font-size: 1.8rem;
+   font-weight: 100;
+}
+
+.card-info{
+    width: 100%;
+    height: 20vh;
+    margin-top: -7%;
+}
+.card-info h5{
+    color: #2895f1;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+.card-info p{
+    color: black;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon-grid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 0.5rem;
+    height: 6vh;
+    margin-left: 8rem;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    position: absolute;
+}
+
+.social-media-icon{
+    width: 100%;
+    height: 6vh;
+    cursor: pointer;
+    background: linear-gradient(to right,#1d86df 0%,  #39b49a 100%);
+    border-radius: 0.5rem;
+}
+
+.social-media-icon .fa{
+    color: #fff; 
+    width: 55%;
+    height: 40%;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.7rem;
+    padding-top: 0.7rem;
+
+}
+
+/*code for prices*/
+#prices{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 130vh;   
+}
+.price-bg{
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+}
+
+.price-grid{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1rem;
+    top: 15%;
+    margin-left: 8%;
+}
+
+.price-box{
+    overflow: hidden;
+    width: 100%;
+    height: 72vh;
+    background-color: #ffffff;
+}
+
+.price-box:nth-child(1){
+    margin-top: 15%;
+}
+.price-box:nth-child(2){
+        height: 88vh;
+}
+.price-box:nth-child(3){
+    margin-top: 15%;
+}
+.pricing-box-header1{
+    width: 95%;
+    height: 17vh;
+    margin-top: 3%;
+    margin-left: 3%;
+    
+}
+
+.pricing-box-header1 h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 50;
+    padding: 0.5rem;
+}
+.pricing-box-header1 h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(163, 154, 154);
+    padding: 0.5rem;
+}
+
+.pricing-box-features{
+        margin: 1.5rem 3rem 0 0.7rem;
+        padding: 0 2rem 2rem 4rem;
+        border-bottom: 0.1rem solid #ececec;
+        text-align: left;
+        line-height: 4rem;
+        font-size: 1.6rem;
+        color: #c2c2c2;
+    }
+
+    .pricing-box-features .fa{
+        width: 3rem;
+        color: #c2c2c2;
+        display: inline-block;
+        margin-right: 1rem;
+        padding-right: 0.5rem;
+        border-right: 0.1rem solid #ececec;
+    }
+
+    .pricing-box-features strong{
+        color: rgb(90, 86, 86);
+    }
+
+    .price-btn{
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+        width: 27%;
+        border-radius: 5rem;
+        height: 10%;
+        border: 0.1rem solid rgb(148, 145, 145);
+        background-color: white;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 100;
+        cursor: pointer;
+    }
+
+
+
+/*code for middle box*/
+.pricing-box-header2{
+    width: 95%;
+    height: 17vh;
+    margin-top: 3%;
+    margin-left: 3%;
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+}
+.pricing-box-header2 h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 50;
+    padding: 0.5rem;
+    color: white;
+}
+.pricing-box-header2 h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: white;
+    padding: 0.5rem;
+}
+
+.pricing-box-text {
+    margin: 1.5rem 3rem 0 3rem;
+    padding: 0 1rem 1.5rem 1rem;
+    border-bottom: 0.1rem solid #ececec;
+    font-weight: 250;
+    line-height: 3rem;
+    color: #c2c2c2;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.price-btn-middle{
+    margin-left: 12rem;
+    margin-top: 1.5rem;
+    width: 30%;
+    border-radius: 5rem;
+    height: 8%;
+    border: 0.1rem solid rgb(148, 145, 145);
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+/*Code for Testimonial*/
+
+#testimonial{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 130vh;
+}
+
+.testimonial-bg{
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+}
+
+.testimonial-heart-pic{
+        position: absolute;
+        width: 5%;
+        vertical-align: middle;
+        margin-top: 3%;
+        margin-left: 47%; 
+}
+
+#testimonial h1{
+    position: absolute;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 42%;
+    font-size: 4rem;
+    color: rgb(59, 58, 58);
+    font-weight: 90;
+
+}
+.line3{
+    position: absolute;
+    width: 3%;
+    border: 0.2rem solid  #39b49b;
+    margin-left: 48% ;
+    margin-top: 12%;
+}
+
+.testimonial-grid{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    top: 24%;
+    margin-left: 5%;
+   
+}
+.testimonial-main-box{
+    width: 100%;
+    height: 40vh;
+   
+}
+.testimonial-content{
+    position: relative;
+    background: #fff;
+    border: 0.1rem solid #ededed;
+    padding: 3rem;
+
+}
+
+.testimonial-content h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0 0 1rem;
+}
+
+.testimonial-content .fa{
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-right: 0.7rem;
+}
+
+.testimonial-content p{
+    background-color: transparent;
+    color: #aaa;
+    display: block;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-weight: 400;
+}
+.testimonial-innercontent{
+    display: block;
+    margin-top: 1rem;
+    height: 13vh;
+}
+.testi-pic{
+    vertical-align: middle;
+    margin-left: 2rem;
+    max-width: 7rem;
+    float: left;
+}
+
+.testi-text{
+    width: 50%;
+    margin-left: 17%;   
+
+}
+.testi-text h4{
+    color: #39b49a;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.testi-text p{
+    color: #999;
+}
+
+/*code for contact*/
+#contact{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact h1{
+    text-align: center;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 42%;
+    font-size: 4rem;
+    color: rgb(59, 58, 58);
+    font-weight: 90;
+}
+
+.line4{
+        position: absolute;
+        width: 3%;
+        border: 0.2rem solid  #39b49b;
+        margin-left: 48% ;
+        margin-top: 12%;
+}
+
+/*google map*/
+.contact-map{
+    width: 100%;
+    height: 70vh;
+    margin-top: 15%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   
+}
+iframe{
+    width: 100%;
+   
+}
+
+.google-contact-box{
+    position: absolute;
+    bottom: 0%;
+    background:rgba(0,0,0,.8);
+    color: #ffffff;
+    width: 40%;
+    float: left;
+    height: 70vh;
+    
+}
+
+.contact-form{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.contact-form-row {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.contact-form-content{
+    float: left;
+    width: 100%;
+    margin: 0;
+   
+}
+
+.contact-form-content input {
+    float: left;
+    width: 95%;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid #fff 0.2rem;
+    background-color: rgba(0,0,0,.8);
+    padding-left: 0.55rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1.8rem 0 0;
+    box-shadow: none;
+    color: rgb(111, 108, 108);
+    height: 4.4rem;
+}
+
+.inner-contact-box{
+    display: table;
+    width: 100%;
+}
+
+.inner-contact-box div.contact-form-content:nth-child(1) {
+        float: left;
+        max-width: 49%;
+}
+
+.inner-contact-box div.contact-form-content:nth-child(2) {
+   
+    margin-left: 10%;
+    max-width: 49%;
+}
+
+.contact-comment-box{
+   
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: larger;
+    border: none;
+    border-bottom:  0.2rem solid white;
+    background-color: rgba(0,0,0,.8);
+}
+
+.contact-btn{
+    width: 40%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 100;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+}
+
+/*code for footer*/
+footer{
+    width: 100%;
+    height: 55vh;
+    position: relative;
+}
+
+.ftr-container{
+    width: 95%;
+    height: 40vh;
+    top: 4rem;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 0.5rem;
+    margin-left: 4%;
+    
+}
+.ftr-content{
+    width: 90%;
+    height: 35vh;
+}
+
+.ftr-logo{
+    width: 55%;
+    height: 5vh;
+    margin-left: 1rem;
+}
+
+.ftr-content h3{
+    font-size: 3rem;
+    font-weight: 250;
+    margin-left: 1rem;
+}
+.ftr-content p{
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+    color: gray;
+    text-align: start;
+}
+.ftr-content .fa{
+    color: #0060b1;
+    font-size: 2.5rem ;
+}
+
+.ftr-btn{
+    margin:auto;
+}
+
+.ftr-btn input{
+    padding: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    float: left;
+    margin-top: 1rem;
+    width: 70%;
+    background: #f1f1f1;
+}
+
+.ftr-btn button{
+    float: left;
+    width: 15%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+}
+.ftr-bottom{
+    width: 100%;
+    height: 10vh;
+    background-color: #2895f1;
+    margin-top: 21%;
+    position: absolute;
+}
+.social-links{
+    float: right;
+    margin-right: 5.5rem;
+    margin-top: 1.5rem;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links .fa{
+    font-size: 3rem;
+    padding: 0.1rem 1.5rem 1.5rem 0rem;
+    color: white;
+}
+.ftr-p{
+    width: 30%;
+    float: left;
+    font-size: 2rem;
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 4rem;
+   
+}
+/*code for angle-up btn*/
+.angle-up-btn{
+        background-color: #3C3D41;
+        z-index: 150;
+        width: 5rem;
+        height: 5rem;
+        line-height: 4.7rem;
+        position: fixed;
+        bottom: -10rem;
+        border-radius: 5rem;
+        right: 5rem;
+        text-align: center;
+        font-size: 2.8rem;
+        color: #ffffff !important;
+        cursor: pointer;
+        
+    }
+    .angle-up-btn:hover{
+        background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+    }
+
+
+    /*responsive*/
+    /* for Extra large screen like large laptop and desktop*/
+    @media only screen and  (min-width :1200px){
+    html{
+        font-size: 62.5%;
+        }
+                     
+   #head{
+    width: 100%;
+}
+
+.head-logo{
+    width: 15%;
+    height: 20%;
+}
+
+.inner-icon{
+    margin: 3.5rem 0 0 3rem;
+}
+
+/*code for navbar*/
+
+
+    nav ul{
+      margin-left: 1.5rem;
+    }
+    nav li{
+      display: inline-block;
+      margin-left: 2%;
+      line-height: 6rem;  
+    }
+
+
+    .search{
+        width: 10%;
+        padding-right: 10%;
+        margin-top: 1.5%;        
+    }
+      
+      
+    .searchbtn {
+        transform: translateX(9.5rem);
+    }
+
+  
+    /*Code for Home*/
+    
+    #home{
+        width: 100%;
+    }
+
+    .featureclock p{
+        color: #fff;
+        padding-top: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+     /*Code for about us*/
+    #about-us{
+        width: 100%;
+    }
+
+    .grid-box{
+        height: 30vh;
+    }
+
+    /*code for services*/
+      #services{
+          width: 100%;
+          background-color: green;
+      }
+   
+
+    .select{
+        width: 100%;
+    }
+    .select div.form-content:nth-child(1) {
+            float: left;
+            max-width: 48%;
+    }
+    
+    .select div.form-content:nth-child(2) {
+        float: left;
+        max-width: 48%;
+    }
+
+    /*Code fore Doctors*/
+    #doctors{
+        width: 100%;
+    }
+
+    .profile-card{
+        height: 100vh;
+    }
+
+    
+     /*Code for Prices*/
+
+     #prices{
+         width: 100%;         
+     }
+
+
+    /*Testimonial*/
+
+    #testimonial{
+        width: 100%;
+    }
+
+    
+    /*code for contact */
+    #contact{
+        width: 100%;
+             
+    }
+
+
+    /*Code for Footer*/
+    footer{
+        width: 100%;
+    }
+    }
+ 
+        
+    /* for laptop screen 992px  */
+
+@media only screen and (min-width:992px) and (max-width: 1200px){
+    html{
+    font-size: 55%;
+    }  
+    #head{
+        width: 100%;
+        height: 28vh;
+
+    }
+    
+    .head-logo{
+        width: 15%;
+        height: 20%;
+    }
+    
+    .inner-icon{
+        margin: 2.5rem 0 0 2rem;
+    }
+    
+    /*code for navbar*/
+    #navbar {
+        top: 20%;  
+        height: 11vh;
+        }
+    
+        nav a{
+          padding: 0.5rem 1rem;
+          text-decoration: none;
+        }
+    
+        nav ul{
+          margin-left: 1rem;
+        }
+        nav li{
+          display: inline-block;
+          margin-left: 1%;
+          line-height: 5rem;  
+        }
+    
+    
+        .search{
+            width: 10%;
+            padding-right: 10%;
+            margin-top: 1.5%;        
+        }
+          
+          
+        .searchbtn {
+            transform: translateX(9.5rem);
+        }
+    
+      
+        /*Code for Home*/
+        
+        #home{
+            width: 100%;
+            height: 115vh;
+        }
+        
+        .homepic{
+            height: 98vh;
+        }
+
+        .typewriter{
+            margin-top: 13%;
+        }
+
+        .feature-box:nth-child(1){
+            height: 52vh;
+        }
+
+        .feature-box:nth-child(2){
+            height: 59vh;
+        }
+        .feature-box:nth-child(3){
+            height: 52vh;
+        }
+    
+        .featureclock p{
+            padding-top: 1.2rem;
+            font-size: 1.2rem;
+        }
+    
+         /*Code for about us*/
+        #about-us{
+            width: 100%;   
+        }
+    
+        .grid-box{
+            height: 30vh;
+        }
+    
+        /*code for services*/
+          #services{
+           width: 100%; 
+          }
+
+        .select{
+            width: 100%;
+        }
+        .select div.form-content:nth-child(1) {
+                float: left;
+                max-width: 48%;
+        }
+        
+        .select div.form-content:nth-child(2) {
+            float: left;
+            max-width: 48%;
+        }
+    
+        /*Code fore Doctors*/
+        #doctors{
+            width: 100%;
+            height: 150vh;
+        }
+
+        .profile-card{
+            height: 100vh;
+        }
+
+        .profile-name{
+            position: absolute;        
+        }
+        .card{
+            height: 100vh;
+         }
+
+         .icon-grid{
+            margin-left: 6rem;
+        }
+        
+         /*Code for Prices*/
+         #prices{
+             width: 100%;         
+         }
+
+        
+    
+        /*Testimonial*/
+    
+        #testimonial{
+            width: 100%;
+        }
+
+        /*code for contact */
+        #contact{
+            width: 100%;
+                 
+        }
+    
+        /*Code for Footer*/
+        footer{
+            width: 100%;
+        }        
+}
+
+/*code for landscape*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    html{
+        font-size: 45%;
+        }  
+        #head{
+            width: 100%;
+            height: 27vh;    
+        }
+        
+        .head-logo{
+            width: 15%;
+            height: 20%;
+        }
+        
+        .inner-icon{
+            margin: 2.5rem 0 0 2rem;
+        }
+        
+        /*code for navbar*/
+        #navbar {
+            top: 23%;  
+            height: 10vh;
+            }
+        
+            nav a{
+              padding: 0.5rem 1rem;
+              text-decoration: none;
+            }
+        
+            nav ul{
+              margin-left: 1rem;
+            }
+            nav li{
+              display: inline-block;
+              margin-left: 1%;
+              line-height: 5rem;  
+            }
+        
+        
+            .search{
+                width: 10%;
+                padding-right: 10%;
+                margin-top: 1.5%;        
+            }
+              
+            .searchbtn {
+                transform: translateX(9.5rem);
+            }
+        
+            /*Code for Home*/
+            #home{
+                width: 100%;
+                height: 115vh;
+            }
+
+            .homepic{
+                height: 98vh;
+            }
+    
+            .typewriter{
+                margin-top: 13%;
+            }
+    
+            .feature-box:nth-child(1){
+                height: 52vh;
+            }
+    
+            .feature-box:nth-child(2){
+                height: 59vh;
+            }
+            .feature-box:nth-child(3){
+                height: 52vh;
+            }
+        
+            .featureclock p{
+                padding-top: 1.2rem;
+                font-size: 1.2rem;
+            }
+        
+             /*Code for about us*/
+            #about-us{
+                width: 100%;   
+            }
+        
+            .grid-box{
+                height: 30vh;
+            }
+        
+            /*code for services*/
+              #services{
+               width: 100%; 
+              }
+    
+            .select{
+                width: 100%;
+            }
+            .select div.form-content:nth-child(1) {
+                    float: left;
+                    max-width: 48%;
+            }
+            
+            .select div.form-content:nth-child(2) {
+                float: left;
+                max-width: 48%;
+            }
+        
+            /*Code fore Doctors*/
+            #doctors{
+                width: 100%;
+                height: 150vh;
+            }
+    
+            .profile-card{
+                height: 100vh;
+            }
+    
+            .profile-name{
+                position: absolute;   
+                margin-top: -55%;     
+            }
+            .card{
+                height: 100vh;
+             }
+             
+             .card-info{
+                width: 100%;
+                height: 20vh;
+                margin-top: -19%;
+            }
+            .card-info h5{
+                font-size:2.5rem;
+            }
+            .card-info p{
+                font-size: 1.8rem;
+            }
+
+             .icon-grid{
+                margin-left: 6rem;
+            }
+            
+             /*Code for Prices*/
+             #prices{
+                 width: 100%;         
+             }
+
+             .pricing-box-features{
+                margin: 1.5rem 2rem 0 0.3rem;
+                padding: 0 1rem 1rem rem;
+                border-bottom: 0.1rem solid #ececec;
+                text-align: left;
+                line-height: 4rem;
+                font-size: 1.6rem;
+                color: #c2c2c2;
+            }
+
+            .price-box:nth-child(2){
+                height: 84vh;
+        }
+        
+            /*Testimonial*/
+        
+            #testimonial{
+                width: 100%;
+            }
+    
+            /*code for contact */
+            #contact{
+                width: 100%;   
+            }
+        
+            /*Code for Footer*/
+            footer{
+                width: 100%;
+            }        
+ }
+
+ /*code for all mobile screen*/
+
+ @media only screen and (max-width: 768px){
+    html{
+        font-size: 30%;
+    }
+    #head{
+        width: 100%;
+        height: 25vh;  
+    }
+    
+    .head-logo{
+        width: 30%;
+        height: 22%;
+        margin-left:35%;
+        margin-top: 8%;
+        margin-right: auto;
+    }
+    
+    .inner-icon{
+       display: none;
+    }
+    
+    #navbar {
+        width: 100%;
+        background-color: #157fda;
+        top: 10%;  
+        height: 15vh;
+        }
+
+        nav ul{
+            position: fixed;
+            width: 100%;
+            height: 65vh;
+            background-color: #157fda;
+            margin-top: 8.2rem;
+            top:-90%;
+            margin-left: 0rem;
+            text-align: left;
+            transition: .5s;
+          }
+          
+          nav li{
+            display: block;
+            line-height: 3rem;
+            margin: 4rem 0;
+          }
+          
+          nav a {
+            font-size: 3rem;
+            padding-right: 4rem;
+            padding-left: 2rem;
+            margin-left: 4rem;
+          }
+          
+          
+          nav ul.show{
+            top: 18%;
+          }
+
+          .menubar{
+           display: block;
+           width: 10rem;
+           height: 8rem;
+           font-size: 4rem;
+           color: white;
+           background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+           margin-top: 4%;
+           margin-left: 4%;
+           border: 1px solid white;
+           border-radius: 1rem;
+           float: left;
+           cursor: pointer;
+          }
+
+        .search{
+            width: 27%;
+            float: right;
+            margin-right: 15%;
+            margin-top: 5%; 
+            display: block;
+            }
+
+      
+    .searchinput {
+        margin: 0rem;
+        padding-left: 1.5rem;
+        font-size: 2rem;
+        width: 170%;  
+        height: 5rem; 
+        outline: none;
+    }
+          
+        .searchbtn {
+            transform: translateX(16rem);
+            height: 4rem;
+          
+        }
+    
+        .search .fa{
+            color: gray;
+            font-size: 1.8rem;   
+             }
+    
+        #navbar li a.active{
+            color: #fff;
+            background: #39b49b;
+            box-shadow: 0.5rem 0.5rem 0 0rem #fff; 
+        }
+    
+        #navbar li a:hover{
+            color: #fff;
+            background: #39b49b;
+            box-shadow: 0.5rem 0.5rem 0 0rem #fff;
+        }
+
+
+        /*code for home*/
+        #home{
+            width: 100%;
+            height: 200vh;
+        }
+    
+        .homepic{  
+            height: 60vh;
+        }
+    
+        .home-innercontainer{
+            margin-top: 13%;
+        }
+
+        .circle{
+            width: 10rem;
+            height: 10rem;
+        }
+
+        .typewriter{
+             margin-top: 25%;   
+            }
+
+        .typewriter h1{
+            font-size: 6rem;
+            }
+
+        .home-feature{
+            position: absolute;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            top: 30%;
+            margin-left: 10%;
+            }
+
+            .feature-box:nth-child(1){
+                height: 37vh;
+                background-color: #2895f1;
+            }
+            .feature-box:nth-child(2){
+                height: 45vh;
+                background-color: #0071d1;
+            }
+    
+            .feature-box:nth-child(3){
+                height: 37vh;
+                background-color: #0060b1;
+            }
+    
+    
+        .featureclock hr{
+            border: 0.1rem dashed white;
+            margin-top: 0.5rem;
+        }
+        .featureclock p{
+            color: #fff;
+            padding-top: 1.8rem;
+            font-size: 3rem;
+        }
+
+        
+    .featurebox-pic i.fa{
+        font-size: 9rem;
+        margin-top: 6rem;
+        color: white;
+        margin-left: 42%;
+    }
+
+    .feature-box h3{
+        font-size: 5rem;
+        padding-top: 1rem;
+    }
+
+    .featurebox-text{
+        font-size: 3rem;
+    }
+
+/*code for about us*/
+    #about-us{
+        width: 100%;
+        height: 240vh;
+        }
+
+.heart-aboutus{
+    position: absolute;
+    width: 10%;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-left: 45%;   
+}
+
+#about-us h1{
+     padding-top: 14%; 
+} 
+
+.line1{
+    width: 4%;
+       }
+    
+    .left-content-box{
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .left-content-box h4{
+        padding-top: 1.8rem;
+        font-size: 2rem;
+        padding-left: 1rem;  
+    }
+
+    .left-content-box h2{
+        font-size: 4rem; 
+        padding-left: 1rem; 
+    }
+
+    .left-content-box p{
+        font-size: 3rem;
+        padding-left: 1rem; 
+        padding-right: 1rem; 
+    }
+
+    .learn-btn{
+        width: 40%;
+        height: 12%;
+        font-size: 2rem;
+        font-weight: 100;
+        margin-left: 1rem; 
+    }
+
+    .right-content-box{
+        flex: 100%;
+        margin-top: 10%;
+    }
+    .grid-box{
+        height: 25vh;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .grid-innercontainer p{
+       font-weight: 100;
+        font-size: 3rem;
+        padding: 0.5rem;
+    }
+
+    /*code for service*/
+    #services{
+        width: 100%;
+        height: 190vh;
+       
+    }
+
+    .service-bg{
+        object-fit: fill;
+        width: 100%;
+        height: 160vh;
+    }
+
+    
+    .main-service-container{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 0.1rem;
+      width: 100%;
+      height: auto;
+      position: absolute;
+       }
+
+.service-leftcontainer{
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 2.0rem;
+}
+.service-rightcontainer{
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 2rem;
+}
+
+
+    .service-inner-container{
+      margin-top: 1%;
+      width: 100%;
+  }
+    
+  .service-grid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 0.01rem;
+      grid-row-gap: 0.01rem; 
+      height: 90vh; 
+      margin-left: -3%;
+       }
+
+  .servicebox-pic{
+      width: 8rem;
+      height: 8rem;
+  }
+
+  .service-box h3{
+      font-size: 3rem;
+      font-weight: 30;
+      text-align: center;
+      padding-right: 17%;
+  }
+
+  .service-box p{
+      display: block;
+      font-size: 3rem;
+      padding-right: 17%;
+  }
+
+  
+  .form-container{
+      height: 60vh;
+  }
+ 
+
+  .select{
+      width: 100%;
+  }
+  .select div.form-content:nth-child(1) {
+          float: left;
+          max-width: 46%;
+  }
+  
+  .select div.form-content:nth-child(2) {
+      float: left;
+      margin-left: 3rem;
+      max-width: 46%;
+  }
+
+  .comment-box{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+  }
+
+  /*Code for Doctors*/
+  #doctors{
+    width: 100%;
+    height: 400vh;
+   
+}
+
+.heart-aboutus{
+    position: absolute;
+    width: 10%;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-left: 45%;   
+}
+
+  #doctors h1{
+    padding-top: 14%;
+  
+} 
+
+.profile-card{
+   height: 370vh;
+   margin-left: 13%;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-row-gap: 7rem;
+   margin-top: 2%;
+    margin-left: 0;
+   width: 100%;
+}
+
+.doctor-pic{
+   object-fit: fill;
+   width: 100%;
+   height: 80%;
+}
+
+.card{
+   height: 100vh;
+   margin-left: 12%;
+}
+
+.profile-name{
+    bottom: 16%;
+    margin-left: 15%;
+    width: 75%;
+    height: 8vh;
+
+}
+
+
+.profile-name h3{
+padding: 4%;
+font-size: 4rem;
+
+}.card-info{
+    width: 100%;
+    height: 20vh;
+    margin-top: 8%;
+}
+.card-info h5{
+    font-size:4rem;
+}
+.card-info p{
+    font-size: 3rem;
+}
+
+ .icon-grid{
+    display: none;
+ }
+ 
+
+ /*Responsive For Prices*/
+ 
+ #prices{
+    width: 100%;
+    height: 150vh;
+}
+
+.price-bg{
+   width: 100%;
+   object-fit: fill;
+   height: 150vh;
+   position: absolute;
+}
+
+
+.price-grid{
+   width: 90%;
+   height: 100vh;
+   position: absolute;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-row-gap: 1rem;
+   top: 3%;
+   margin-left: 6%;
+}
+
+.price-box{
+   overflow: hidden;
+   width: 100%;
+   height: 40vh;
+   background-color: #ffffff;
+}
+
+.price-box:nth-child(1){
+   margin-top: 5%;
+}
+.price-box:nth-child(2){
+       height: 50vh;
+}
+.price-box:nth-child(3){
+   margin-top: 0.5%;
+}
+
+.pricing-box-features{
+   padding: 0 0.4rem 1rem 5rem;
+   margin-top: 1%;
+   
+}
+
+.pricing-box-header1{
+   margin-top: 1%;
+}
+
+.pricing-box-header1 h2{
+   padding: 3rem;
+   font-size: 5rem;
+
+}
+
+
+.pricing-box-header2{
+   margin-top: 2%;
+}
+
+.pricing-box-header2 h2{
+   padding: 3rem;
+   font-size: 5rem;
+}
+
+
+.pricing-box-features{
+   margin-top: 0.5rem;
+   font-size: 3rem;
+}
+
+.price-btn{
+   margin-left: 145px;
+   width: 32%;
+   height: 7%;
+   margin-top: 2%;  
+}
+
+.price-btn-middle{
+   margin-left: 35%;
+   margin-top: 2%;
+   width: 32%;
+   height: 7%;
+   font-size: 2.5rem;
+}
+
+
+    .price-btn{
+        margin-left: 35%;
+        margin-top: 2%;
+        width: 32%;
+        height: 7%;
+        font-size: 2.5rem;
+    }
+
+
+    
+    #testimonial{
+        width: 100%;
+        height: 180vh;
+    }
+
+    .testimonial-bg{
+        width: 100%;
+        object-fit: fill;
+        height: 180vh;
+        position: absolute;
+    }
+
+    .testimonial-heart-pic{
+        position: absolute;
+        width: 10%;
+        vertical-align: middle;
+        margin-top: 5%;
+        margin-left: 47%;   
+    }
+
+   
+
+    #testimonial h1{
+         padding-top: 6%;
+         font-size: 4rem;
+         text-align: center;
+       
+    } 
+
+    .testimonial-grid{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 0.1rem;
+        top: 10%;
+    }
+
+    #testimonial h1{
+        margin-left: 39%;
+      
+    
+    }
+    .line3{
+        margin-top: 22%;
+        margin-left: 50%;
+    }
+    
+    .testimonial-main-box{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .testimonial-content h3{
+        font-size: 3rem;
+    }
+    
+    .testimonial-content .fa{
+        font-size: 4rem;
+    }
+    
+    .testimonial-content p{
+        font-size: 3rem;
+    }
+
+    #contact{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    #contact h1{
+        margin-top: 13%;
+        margin-left: 39%;
+        font-size: 4rem;
+    }
+
+    
+    .line4{
+        margin-top: 20%;
+        margin-left: 50%;
+    }        
+    .contact-btn{
+        width: 50%;
+        height: 30%;
+        margin-left: 25%;
+    }
+    
+   .contact-map{
+       margin-top: 30%;
+       height: 40vh;
+   }
+   .contact-comment-box{
+       padding-top: 2%;
+       padding-bottom: 2%;
+   }
+    .google-contact-box{
+        position: absolute;
+        bottom: 0%;
+        background:rgba(0,0,0,.8);
+        color: #ffffff;
+        width: 100%;
+        float: left;
+        height: 40vh;
+        
+    }
+
+
+    footer{
+        width: 100%;
+        height:100vh;     
+              
+    }
+    .ftr-container{
+        width: 100%;
+        height: 30vh;
+        top: 1.5rem;
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 0px;
+        margin-left: 0%;
+        
+    }
+
+    .ftr-content{
+        width: 90%;
+        height: 25vh;
+        margin-left: 5%;
+    }
+
+    
+.ftr-content h3{
+    font-size: 4rem;
+}
+.ftr-content p{
+    font-size: 3rem;
+    
+}
+.ftr-content .fa{
+    color: #0060b1;
+    font-size: 3rem ;
+}
+
+
+    .ftr-bottom{
+        margin-top: 125%;
+        height: 5vh;
+        background-color: #0060b1;
+    }
+    .ftr-logo{
+        width: 25%;
+        height: 2.5vh;
+    }
+
+    .ftr-p{
+            width: 50%;
+            font-size: 3rem;
+    }
+    .social-links{
+        margin-right:1rem;
+    }
+    .social-links .fa{
+        font-size: 3rem;
+        padding: 0.1rem 1rem 1rem 0rem;
+        color: white;
+       
+    }
+
+    
+
+
+
+ }

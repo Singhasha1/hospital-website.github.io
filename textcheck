@@ -1,0 +1,448 @@
+    /* for Extra large screen like large laptop and desktop*/
+@media only screen and  (min-width :1200px){
+    html{
+    font-size: 62.5%;
+     }
+             
+#head{
+    width: 100%;
+    height: 22vh;
+    
+}
+
+.head-logo{
+    width: 15%;
+    height: 20%;
+}
+
+.inner-icon{
+    margin: 3.5rem 0 0 3rem;
+}
+
+/*code for navbar*/
+
+#navbar {
+    width: 100%;
+    top: 33%;  
+    height: 7vh;
+    }
+
+    nav ul{
+      margin-left: 1.5rem;
+    }
+    nav li{
+      display: inline-block;
+      margin-left: 2%;
+      line-height: 6rem;  
+    }
+
+
+    .search{
+        width: 10%;
+        padding-right: 10%;
+        margin-top: 1.5%;        
+    }
+      
+      
+    .searchbtn {
+        transform: translateX(9.5rem);
+    }
+
+  
+    /*Code for Home*/
+    
+    #home{
+        width: 100%;
+    }
+
+    .featureclock p{
+        color: #fff;
+        padding-top: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+     /*Code for about us*/
+    #about-us{
+        width: 100%;
+    }
+
+    .grid-box{
+        height: 30vh;
+    }
+
+    /*code for services*/
+      #services{
+          width: 100%;
+          background-color: green;
+      }
+      
+
+    .form-container{
+        height: 55vh;
+    }
+   
+
+    .select{
+        width: 100%;
+    }
+    .select div.form-content:nth-child(1) {
+            float: left;
+            max-width: 48%;
+    }
+    
+    .select div.form-content:nth-child(2) {
+        float: left;
+        max-width: 48%;
+    }
+
+    /*Code fore Doctors*/
+    #doctors{
+        width: 100%;
+    }
+
+    .profile-card{
+        height: 70vh;
+        margin-left: 8%;
+    }
+
+    .doctor-pic{
+        object-fit: contain;
+        width: 100%;
+        height: 75%;
+     }
+
+    .card{
+        height: 60vh;
+     }
+     
+     
+     .profile-name{
+         bottom: 27%;
+         margin-left: 12%;
+         width: 75%;
+         height: 6vh;
+     }
+     
+     
+     .icon-grid{
+         width: 50%;
+         margin-left: 50px;
+         margin-top: 12px;
+         
+         
+     }
+
+     /*Code for Prices*/
+
+     #prices{
+         width: 100%;
+         height: 75vh;
+         
+     }
+
+     .price-bg{
+         max-width: 100%;
+         object-fit: fill;
+         height: 75vh;
+     }
+     
+     .price-grid{
+        top: 5%;
+        margin-left: 6%;
+    }
+
+    .price-box{
+        
+        height: 55vh;
+        
+    }
+
+    .price-box:nth-child(1){
+        margin-top: 15%;
+    }
+    .price-box:nth-child(2){
+            height: 65vh;
+    }
+    .price-box:nth-child(3){
+        margin-top: 15%;
+    }
+
+    .price-btn{
+        margin-left: 110px;
+       
+    }
+
+    .price-btn-middle{
+        margin-left: 110px;
+    }
+
+    /*Testimonial*/
+
+    #testimonial{
+        width: 100%;
+        height: 93vh;
+    }
+
+    .testimonial-bg{
+    
+            max-width: 100%;
+            object-fit: fill;
+            height: 93vh;
+       
+    }
+
+    /*code for contact */
+    #contact{
+        width: 100%;
+        height: 70vh;       
+    }
+    .google-contact-box{
+        bottom: 29%;
+        height: 50vh; 
+    }
+   
+
+    /*Code for Footer*/
+    footer{
+        width: 100%;
+        height: 35vh;
+    }
+
+    }
+
+
+    /* for large devices like laptop/desktop*/
+/*
+    @media only screen and  (min-width :992px){
+        html{
+            font-size: 62.5%;
+        }
+        #head{
+            width: 100%;
+            height: 21vh;
+            
+        }
+        
+        .head-logo{
+            width: 15%;
+            height: 20%;
+        }
+        
+        .inner-icon{
+            margin: 2.5rem 0 0 1.2rem;
+        }
+        
+       
+        
+        #navbar {
+            width: 100%;
+            top: 33%;  
+            height: 7vh;
+            }
+        
+            nav ul{
+              margin-left: 1.5rem;
+            }
+            nav li{
+              display: inline-block;
+              margin-left: 2%;
+              line-height: 6rem;  
+            }
+        
+            .search{
+                width: 10%;
+                padding-right: 10%;
+                margin-top: 1.5%;        
+            }
+              
+            .searchbtn {
+                transform: translateX(9.5rem);
+            }
+        
+          
+          
+            
+            #home{
+                width: 100%;
+            }
+        
+            .featureclock p{
+                color: #fff;
+                padding-top: 1.2rem;
+                font-size: 1.2rem;
+            }
+        
+            
+            #about-us{
+                width: 100%;
+            }
+        
+            .grid-box{
+                height: 30vh;
+            }
+        
+         
+              #services{
+                  width: 100%;
+              }
+              
+        
+            .form-container{
+                height: 55vh;
+            }
+           
+        
+            .select{
+                width: 100%;
+            }
+            .select div.form-content:nth-child(1) {
+                    float: left;
+                    max-width: 48%;
+            }
+            
+            .select div.form-content:nth-child(2) {
+                float: left;
+                max-width: 48%;
+            }
+        
+      
+            #doctors{
+                width: 100%;
+            }
+        
+            .profile-card{
+                height: 65vh;
+                margin-left: 8%;
+            }
+        
+            .doctor-pic{
+                object-fit: contain;
+                width: 100%;
+                height: 75%;
+             }
+        
+            .card{
+                height: 60vh;
+             }
+            
+             
+             
+             .profile-name{
+                 bottom: 35%;
+                 margin-left: 12%;
+                 width: 75%;
+                 height: 6vh;
+             }
+             
+             
+             .icon-grid{
+                 width: 50%;
+                 margin-left: 5rem;
+                 margin-top: 0.5rem;
+                 
+                 
+             }
+        
+         
+        
+             #prices{
+                 width: 100%;
+                 height: 75vh;
+                 
+             }
+        
+             .price-bg{
+                 max-width: 100%;
+                 object-fit: fill;
+                 height: 75vh;
+             }
+             
+             .price-grid{
+                top: 5%;
+                margin-left: 6%;
+            }
+        
+            .price-box{
+                
+                height: 55vh;
+                
+            }
+        
+            .price-box:nth-child(1){
+                margin-top: 15%;
+            }
+            .price-box:nth-child(2){
+                    height: 65vh;
+            }
+            .price-box:nth-child(3){
+                margin-top: 15%;
+            }
+        
+            .price-btn{
+                margin-left: 110px;
+               
+            }
+        
+            .price-btn-middle{
+                margin-left: 110px;
+            }
+        
+    
+        
+            #testimonial{
+                width: 100%;
+                height: 93vh;
+            }
+        
+            .testimonial-bg{
+            
+                    max-width: 100%;
+                    object-fit: fill;
+                    height: 93vh;
+               
+            }
+        
+           
+            #contact{
+                width: 100%;
+                height: 70vh;       
+            }
+            .google-contact-box{
+                bottom: 29%;
+                height: 50vh; 
+            }
+           
+        
+            footer{
+                width: 100%;
+                height: 35vh;
+            }
+        
+
+    }*/
+
+    /* for medium devices like landscape tablet*/
+/*
+     @media only screen and  (min-width :768px){
+        html{
+            font-size: 62.5%;
+        }
+    }*/
+
+    /* for small devices like portrait tablet and large screen phone*/
+
+    /*
+    @media only screen and  (min-width :600px){
+        html{
+            font-size: 62.5%;
+        }
+    }*/
+
+    /*Extra small devices like mobile*/
+
+    /*
+    @media only screen and (max-width: 600px){
+        html{
+            font-size: 30%;
+        }
+    }*/5 
